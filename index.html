@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1e16c64e6b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul id="sidemenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <i class="fa-regular fa-circle-xmark"></i>
+                </ul>
+                <i class="fa-solid fa-bars"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX/Designer/<span>Developer</span></p>
+                <h1>Hi, I'm <span>Jennifer</span> Jose</h1>
+                <button>Hire me!</button>
+            </div>
+        </div>
+    </div>
+    <!------------------about me---------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/user.jpg" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I' am, Jennifer Jose i'm a web designer and developer live in<br> the philippines 
+                        i will help you to make your website to grow your business.
+                     <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('education')" >Education</p>
+                     </div>
+                     <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Front End Web Development</span><br>Web Development</li>
+                            <li><span>App Development</span><br>Building Android App</li>
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021 - current</span><br>Freelancer Front End Web Developer</li>
+                            <li><span>2020 - 2021</span><br> Internship at  UDM School</li>
+                        </ul>
+
+                     </div>
+                     <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2018 - 2019</span><br>Web Development at Xavier Tech School</li>
+                            <li><span>2001 - 2005</span><br>High School at Antipolo National High School</li>
+                            <li><span>1996- 2001</span><br>Lores Elementary School </li>
+                        </ul>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-----------------Services------------------>
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title"> My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>Web Design</h2>
+                <p>I'am excited to propose the development of a new website for your business.<br>
+                 Our goal is to create a visually appealing, modern, and user-friendly website that<br> 
+                 effectively represents your brand, showcases your products/services, and engages your<br>
+                 target audience. This proposal outlines our approach, deliverables, and timeline for the web design project.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>I'am delighted to present our proposal for the web development project<br>
+                 to build a dynamic and feature-rich website for your business. Our aim is to develop<br>
+                 a high-quality, scalable, and secure website that meets your specific requirements and <br>
+                 provides an exceptional user experience. This proposal outlines our approach, deliverables,<br>
+                  and timeline for the web development project.</p>
+                    <a href="#">Learn more</a>
+            </div>
+            
+            <div>
+                <i class="fa-brands fa-android"></i>
+                <h2>App Design</h2>
+                <p>We are thrilled to present our proposal for the app design project<br>
+                 to create an intuitive and engaging mobile application for your business. <br>
+                 Our objective is to design a user-friendly, visually appealing, and functional app<br>
+                  that delivers a seamless user experience and aligns with your brand identity. This proposal<br>
+                   outlines our approach, deliverables, and timeline for the app design project.</p>
+                    <a href="#">Learn more</a>
+            </div>
+    </div>
+</div>
+
+<!----------My work------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="image/e commerce.jpg">
+                <div class="layer">
+                    <h3>E-commerce Website</h3>
+                    <p>The Website helps your business to grow</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/linkdin.jpg">
+                <div class="layer">
+                    <h3>Front End Design Like linkdin</h3>
+                    <p>This design is linkdin clone</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/clone.jpg">
+                <div class="layer">
+                    <h3>Netflix landing page clone</h3>
+                    <p>This design is landing page on Neflix</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!-----contact---->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>ceejaypanget01@gmail.com</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <a href="image/my cv.pdf" download class="btn btn2">Download CV</a>   
+           
+        </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Rain. Made With <i class="fa-solid fa-heart"></i> Me</p>
+    </div>
+</div>
+    <script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+        
+
+    
+ }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+
+        
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+     </script>
+</body>
+</html>
